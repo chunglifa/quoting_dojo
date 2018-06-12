@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script></script>
+        <title>Form Test Index</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Welcome to Quoting Dojo</h1>
+            <div class="formwrapper">
+                <form action='/quotes' method='POST'>
+                    <input id='name' type="text" name="name" placeholder="Name">
+                    <br>
+                    <input id='age' type="textarea" name="quote" placeholder="Quote">
+                    <br>
+                <input id='button' type="submit" value="Add my quote!">
+                </form>
+                <a href="/quotes"><button>Skip to Quotes</button></a>
+            </div>
+            
+        </div>
+
+    </body>
+</html>

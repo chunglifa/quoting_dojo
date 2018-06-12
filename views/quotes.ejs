@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script></script>
+        <title>Form Test Index</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>Here are the awesome quotes!</h1>
+            <% if(quotes){ %> 
+                <% for(i in quotes){ %>
+                <div class="quoteBox">
+                    <h4><%= quotes[i].content%></h4>
+                    <p>- <%= quotes[i].name%> <%= quotes[i].createdAt%></p>
+                </div>
+                <% } %>
+            <% } %>
+            <a href="/"><button>Back</button></a>
+        </div>
+
+    </body>
+</html>

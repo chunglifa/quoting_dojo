@@ -1,0 +1,35 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    align-content: center;
+}
+
+.wrapper{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 800px;
+    height: 500px;
+    margin-left: 28%;
+    background-color: rgb(203, 203, 203);
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    background-color: lightcyan;
+    border-radius: 5px;
+}
+.quoteBox{
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+
+
+
+
